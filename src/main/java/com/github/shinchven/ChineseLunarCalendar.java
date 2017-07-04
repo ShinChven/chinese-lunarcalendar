@@ -66,7 +66,7 @@ public class ChineseLunarCalendar extends ChineseCalendarGB {
         if (getChineseMonth() > 0) {
             str = "" + chineseMonthNames[getChineseMonth() - 1];
         } else if (getChineseMonth() < 0) {
-            str = "润" + chineseMonthNames[-getChineseMonth() - 1];
+            str = "闰" + chineseMonthNames[-getChineseMonth() - 1];
         }
 
         return str;
